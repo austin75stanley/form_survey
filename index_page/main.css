@@ -1,0 +1,38 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+ .header-bk{
+    background: black;
+    padding:50px 60px;
+} 
+.form-section{
+    background:lightseagreen;
+    margin-top:-38px;
+}
+.form-section h1{
+    font-size: 45px;
+    text-align:center;
+    font-weight:900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top:25px;
+}
+.form-items{
+    background:white;
+    text-align: center;
+    padding-top:20px;
+    
+
+}
+#form-text1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+form{
+
+}
+#text-2{
+    margin-left:10px;
+    width: 250px;
+    height:30px;
+}
