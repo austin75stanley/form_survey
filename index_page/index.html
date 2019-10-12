@@ -1,28 +1,70 @@
 <!DOCTYPE html>
-<html> 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./main.css">
-    </head>
-    <body>
-        <div class='header-bk'>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class='header-bk'>
+    </div>
+    <section class="form-section">
+        <h1>Survey Form</h1>
+        <div class='form-items'>
+            <p id='form-text1'>Let us know how we can improve freeCodeCamp</p>
+            <form>
+                <label><sup>*</sup>Name:</label>
+                <input type='text' id='text-2' placeholder="Enter your name">
+                </br>
+                <label><sup>*</sup>Email:</label>
+                <input type='email' id='text-3' placeholder="Enter your email">
+                </br>
+                <label><sup>*</sup>Age:</label>
+                <input type='number' id='text-4' placeholder="Age">
+                <div class='select-now'>
+                    <p id='current-role'>Which option best describes your current role?</p>
+                    <select>
+                        <option disabled>Select an option</option>
+                        <option>Student</option>
+                        <option>Full Time Job</option>
+                        <option>Full Time Learner</option>
+                        <option>Prefer not to say</option>
+                        <option>Others</option>
+                    </select>
+                </div>
+                <div class="likes">
+                    <p> *How likely is that you would recommend freeCodeCamp to a friend?</p>
+                    <div class="radios">
+                        <input type="radio" name="radio">Definately <br /></br>
+                        <input type="radio" name="radio" id="radio-2">Maybe <br /></br>
+                        <input type="radio" name="radio" id="radio-3">Not Sure
+                    </div>
+                </div>
+                    <div class='fcc'>
+                        <p>What do you like most in FCC:
+                        </p>
+                        <select id='challenges'>
+                                <option disabled>Select an option</option>
+                                <option>Challenges</option>
+                                <option>Projects</option>
+                                <option>Community</option>
+                                <option>Open Source</option>
+                                
+                            </select>
+                    </div>
+                
+
+            </form>
         </div>
-        <section class="form-section">
-           <h1>Survey Form</h1>
-           <div class='form-items'>
-  <p id='form-text1'>Let us know how we can improve freeCodeCamp</p>
-           <form>
-               <label><sup>*</sup>Name:</label>
-               <input type='text' id='text-2' placeholder="Enter your name">
-           </form>
-           </div>
-        </section>
-       
-        
-        
-    </body>
+    </section>
+
+
+
+</body>
+
 </html>
