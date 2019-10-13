@@ -1,7 +1,7 @@
 body{
     margin:0px;
     padding:0px;
-   
+    background:lightseagreen;
   
 }
  .header-bk{
@@ -9,9 +9,8 @@ body{
     padding:50px 60px;
 } 
 .form-section{
-    background:lightseagreen;
     margin-top:-38px;
-    
+  
 }
 .form-section h1{
     font-size: 45px;
@@ -28,6 +27,7 @@ body{
     margin-right:200px;
     padding-bottom:50px;
     border-radius:15px;
+    margin-bottom: 20px;
 }
 #form-text1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -62,7 +62,7 @@ form{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top:35px;
     position:relative;
-    left:20%;
+    left:9%;
     display:flex;
     height: 35px;
     padding-left: 10px;
@@ -76,7 +76,7 @@ select{
 .likes{
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    position:relative;
-   right:20%;
+   left:-27%;
    padding-top:10px;
    display: inline-flex;
 
